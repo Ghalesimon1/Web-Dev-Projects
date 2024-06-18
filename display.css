@@ -1,0 +1,358 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.ul {
+	list-style: none;
+	padding: 10px;
+}
+
+.li {
+	float: left;
+	margin: 15px;
+}
+
+.li a {
+	text-decoration: none;
+	font-size: 15px;
+	color: black;
+	font-family: Lato;
+	padding: 15px 15px;
+	line-height: 20px;
+}
+
+.li a:hover {
+	background-color: #dcdcdc;
+	color: #1a98d9;
+}
+
+
+.menu {
+	height: 70px;
+	background-color: hsl(0, 0%, 100%);
+	margin: 10px;
+}
+
+.bcd {
+	box-sizing: border-box;
+	background-color: #1a98d9;
+	border-radius: 35px;
+}
+
+.img {
+	width: 1260px;
+	height: 600px;
+}
+
+.container {
+	position: relative;
+
+}
+
+.text {
+	position: absolute;
+	top: 200px;
+	left: 215px;
+	right: 30px;
+	padding: 45px;
+	color: #ffffff;
+	font-size: 30px;
+	font-family: Lato;
+}
+
+.text1 h2 {
+	text-align: center;
+	margin-bottom: 35px;
+	margin-top: 65px;
+	font-size: 38px;
+	color: #1a98d9;
+}
+
+
+.text1 {
+	text-align: center;
+	color: black;
+	font-size: 14px;
+	font-family: Lato;
+	margin-bottom: 95px;
+
+}
+
+.wer {
+	margin-bottom: 20px;
+}
+
+
+.img1 {
+	border-radius: 7px;
+	height: 250px;
+	width: 320px;
+}
+
+
+.column:hover {
+	opacity: 0.9;
+}
+
+.text2 h2 {
+	font-size: 20px;
+	margin-bottom: 18px;
+}
+
+.text2 {
+	text-align: center;
+	font-family: Lato;
+}
+
+.abc {
+	text-align: center;
+	font-size: 12px;
+	font-family: Lato;
+	margin-bottom: 22px;
+}
+
+.column {
+	width: 420px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	padding: 15px;
+	border-radius: 7px;
+	margin-left: 60px;
+	margin-right: -30px;
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+
+
+.row {
+	display: flex;
+	width: 400px;
+	margin: -41px;
+	opacity: 1;
+	margin-left: 21px;
+	margin-bottom: 75px;
+}
+
+.a {
+	float: right;
+}
+
+.b {
+	font-size: 12px;
+	margin: 10px;
+	text-decoration: none;
+	color: black;
+}
+
+.fa-arrow-right {
+	margin: 5px;
+}
+
+.fa-arrow-right:hover {
+	color: #1a98d9;
+
+}
+
+.b:hover {
+	color: #1a98d9;
+
+}
+
+
+.box1 {
+	background-image: url(reef-2.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+
+.text3 {
+	color: white;
+	font-size: 14px;
+	font-family: Lato;
+	margin: 100px;
+	padding: 210px;
+	text-align: center;
+}
+
+.text3 h2 {
+	margin-bottom: 18px;
+	font-size: 24px;
+}
+
+.licht {
+	font-size: 20px;
+	font-family: Lato;
+}
+
+
+.text4 h2 {
+	text-align: center;
+	margin-bottom: 45px;
+	font-family: Lato;
+	font-size: 24px;
+}
+
+.column2 {
+	margin: 10px;
+	margin-left: 189px;
+}
+
+.column3 {
+	margin: 10px;
+	margin-left: 260px;
+}
+
+.img2 {
+	height: 110px;
+	width: 150px;
+	margin-left: 0px;
+}
+
+.img3 {
+	height: 95px;
+	width: 175px;
+}
+
+
+.row1 {
+	background-color: #135e82;
+	display: flex;
+}
+
+.column1 {
+	width: 400px;
+	padding: 55px;
+}
+
+.qqq {
+	margin-top: 10px;
+
+}
+
+.text5 {
+	color: white;
+	font-size: 14px;
+	font-family: lato;
+}
+
+.text5 h2 {
+	margin-bottom: 30px;
+}
+
+.text6 {
+	color: white;
+	font-size: 14px;
+	font-family: lato;
+
+}
+
+.zzz {
+	text-decoration: none;
+	color: white;
+}
+
+.zzz:hover {
+	color: black;
+}
+
+.text6 h2 {
+	margin-bottom: 30px;
+}
+
+.text7 {
+	color: white;
+	font-size: 14px;
+	font-family: lato;
+
+}
+
+.text7 h2 {
+	margin-bottom: 30px;
+}
+
+.text8 {
+	color: white;
+	font-size: 14px;
+	font-family: lato;
+
+}
+
+.text8 h2 {
+	margin-bottom: 30px;
+
+}
+
+.text9 {
+	padding: 125px;
+	background-color: black;
+	color: #ffffff;
+	font-size: 14px;
+	font-family: Lato;
+	text-align: center;
+}
+
+.text9 h2 {
+	margin-bottom: 30px;
+	font-size: 16px;
+}
+
+.berg {
+	font-size: 16px;
+	margin-bottom: 30px;
+
+}
+
+.end {
+	text-decoration: none;
+	color: white;
+}
+
+.end:hover {
+	color: #1a98d9;
+}
+
+.fa-instagram {
+	font-size: 25px;
+	margin-bottom: 10px;
+	color: white;
+	text-decoration: none;
+}
+
+.fa-facebook {
+	font-size: 25px;
+	margin-bottom: 10px;
+	color: white;
+	text-decoration: none;
+}
+
+.fa-twitter {
+	font-size: 25px;
+	margin-bottom: 10px;
+	color: white;
+	text-decoration: none;
+}
+
+.fa-envelope {
+	font-size: 25px;
+	margin-bottom: 10px;
+	color: white;
+	text-decoration: none;
+}
+
+.fa-instagram:hover {
+	color: black;
+}
+
+.fa-facebook:hover {
+	color: black;
+}
+
+.fa-twitter:hover {
+	color: black;
+}
+
+.fa-envelope:hover {
+	color: black;
+}
