@@ -2,6 +2,15 @@
     margin: 0;
     padding: 0;
 }
+.redbox {
+    height: 32px;
+    width: 32px;
+    background: rgb(238, 61, 89);
+    position: fixed;
+    bottom: 30px;
+    right: 23px;
+    border-radius: 60px;
+}
 
 a {
     text-decoration: none;
@@ -10,18 +19,27 @@ a {
 
 h1 {
     font-size: 50px;
+    margin-bottom: 15px;
 }
 
 body {
     background-color: rgb(243, 243, 243);
 }
 
+.item button {
+    background-color: rgb(238, 61, 89);
+    padding: 12px 18px;
+    border-radius: 40px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
 .item1 img {
     border-radius: 50%;
-    border: 5px solid rgb(238,61,89);
+    border: 5px solid rgb(238, 61, 89);
     width: 300px;
 }
-/*rgb(249, 38, 105)*/
+
 nav {
     display: flex;
     justify-content: space-around;
@@ -32,11 +50,11 @@ nav {
 .logo a:hover {
     opacity: 80%;
     cursor: pointer;
-    color: rgb(238,61,89);
+    color: rgb(238, 61, 89);
 }
 
 span {
-    color: rgb(238,61,89);
+    color: rgb(238, 61, 89);
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
@@ -65,11 +83,11 @@ span {
 li a:hover {
     opacity: 80%;
     cursor: pointer;
-    color: rgb(238,61,89)
+    color: rgb(238, 61, 89)
 }
 
 .menu ul li .button {
-    background-color: rgb(238,61,89);
+    background-color: rgb(238, 61, 89);
     padding: 5px 5px;
     border-radius: 40px;
     text-align: center;
@@ -77,8 +95,8 @@ li a:hover {
 }
 
 .menu button {
-    background-color: rgb(238,61,89);
-    padding: 6px 15px;
+    background-color: rgb(238, 61, 89);
+    padding: 10px 15px;
     border-radius: 40px;
     text-align: center;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -113,7 +131,7 @@ li .button:hover {
 
 .logo2 img {
     border-radius: 50%;
-    border: 5px solid rgb(238,61,89);
+    border: 5px solid rgb(238, 61, 89);
     width: 300px;
     margin: 50px;
 }
@@ -127,18 +145,18 @@ li .button:hover {
 }
 
 .about h1 {
-    color: rgb(238,61,89)
+    color: rgb(238, 61, 89)
 }
 
 .about a:hover {
     opacity: 80%;
     cursor: pointer;
-    color: rgb(238,61,89)
+    color: rgb(238, 61, 89)
 }
 
 .box {
     text-align: center;
-    color: rgb(238,61,89)
+    color: rgb(238, 61, 89)
 }
 
 .projcon {
@@ -149,7 +167,7 @@ li .button:hover {
 }
 
 .projcon button {
-    background-color: rgb(238,61,89);
+    background-color: rgb(238, 61, 89);
     padding: 12px 15px;
     border-radius: 40px;
     text-align: center;
@@ -161,21 +179,21 @@ li .button:hover {
 .projects {
     display: flex;
     justify-content: center;
-    margin: 50px;
-    padding: 50px;
+    margin: 25px;
+    padding: 25px;
     column-gap: 50px;
 }
 
 .dis p:hover {
     opacity: 50%;
     cursor: pointer;
-    color: rgb(238,61,89);
+    color: rgb(238, 61, 89);
 }
 
 .dis :hover {
     opacity: 50%;
     cursor: pointer;
-    color: rgb(238,61,89);
+    color: rgb(238, 61, 89);
 }
 
 .dis img {
@@ -193,10 +211,12 @@ li .button:hover {
 
 .contact .con h1 {
     color: rgb(0, 0, 0);
-    padding-bottom: 50px;
+    padding-bottom: 15px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-
+.con {
+    text-align: center;
+}
 .contact {
     display: flex;
     justify-content: right;
@@ -206,15 +226,6 @@ li .button:hover {
 
 .contact .sheet {
     margin-top: 20px;
-}
-
-.con button {
-    background-color: rgb(238,61,89);
-    padding: 12px 18px;
-    border-radius: 40px;
-    margin-left: 70px;
-    text-align: center;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 input {
@@ -243,18 +254,18 @@ textarea {
 
 input:focus-within {
     outline: none;
-    border-color: rgb(238,61,89);
+    border-color: rgb(238, 61, 89);
     border-width: 3px;
 }
 
 textarea:focus-within {
     outline: none;
-    border-color: rgb(238,61,89);
+    border-color: rgb(238, 61, 89);
     border-width: 3px;
 }
 
 .sheet button {
-    background-color: rgb(238,61,89);
+    background-color: rgb(238, 61, 89);
     padding: 8px 15px;
     border-radius: 40px;
     text-align: center;
@@ -281,4 +292,38 @@ footer {
     color: white;
     text-align: center;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.fa-instagram {
+    font-size: 35px;
+    margin: 5px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.fa-facebook {
+    font-size: 35px;
+    margin: 5px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.fa-envelope {
+    font-size: 35px;
+    margin: 5px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.fa-instagram:hover {
+    color: rgb(238, 61, 89);
+}
+
+.fa-facebook:hover {
+    color: rgb(238, 61, 89);
+}
+
+.fa-envelope:hover {
+    color: rgb(238, 61, 89);
 }
