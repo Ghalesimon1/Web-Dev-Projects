@@ -7,6 +7,10 @@
     <title>Flugzeug</title>
     <link rel="stylesheet" href="style.css" type="text/css">
 
+    <link rel="stylesheet" type="text/css" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/brands.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/solid.min.css">
+
 </head>
 
 <body>
@@ -18,9 +22,9 @@
             <div class="menu">
                 <ul>
                     <li><a href="">Home</a></li>
-                    <li><a href>About Me</a></li>
-                    <li><a href="">Projects</a></li>
-                    <button>Contact</button>
+                    <li><a href="#about-section">About Me</a></li>
+                    <li><a href="#projects-section">Projects</a></li>
+                    <a href="#contact-section"><button>Contact</button></a>
                 </ul>
 
 
@@ -33,10 +37,15 @@
         <div class="banner">
             <div class="item">
                 <h1><span id="hello">Hello!</span><br> I am Simon. Welcome to my page. </h1>
+                <a href="Lebenslauf (Simon).pdf"><button>Download CV</button></a>
             </div>
             <div class="item1">
                 <img src="bild.jpg">
             </div>
+
+        </div>
+
+        <div id="scroll-up" class="redbox">
 
         </div>
 
@@ -45,7 +54,7 @@
                 <img src="bild.jpg">
             </div>
 
-            <div class="about">
+            <div id="about-section" class="about">
                 <h1>About Me</h1>
                 <br>
                 <br>
@@ -64,7 +73,7 @@
 
 
 
-        <div class="projcon">
+        <div id="projects-section" class="projcon">
             <div class="box">
                 <h1>Projects</h1>
             </div>
@@ -72,13 +81,13 @@
             <div class="projects">
                 <div class="dis">
                     <a href="display.html"><img src="Reef-2.jpg">
-                    <p>Pro 1</p>
-                        </a>
+                        <p>Pro 1</p>
+                    </a>
                 </div>
                 <div class="dis">
                     <a href="new project.html"><img src="manaslu.jpg">
-                    <p>Pro 2</p>
-                        </a>
+                        <p>Pro 2</p>
+                    </a>
                 </div>
                 <div class="dis">
                     <img src="new.jpg">
@@ -86,15 +95,20 @@
                 </div>
 
             </div>
-            <button>Show More</button>
+            <a href="https://www.behance.net/gallery/201339525/Projects"><button>Show More</button></a>
         </div>
     </section>
 
 
-    <div class="contact">
+    <div id="contact-section" class="contact">
         <div class="con">
             <h1>Contact Me</h1>
-            <a href="Lebenslauf (Simon).pdf"><button>Download CV</button></a>
+
+            <p><a class="fa-brands fa-instagram"></a>
+                <a class="fa-brands fa-facebook"></a>
+                <a class="fa-solid fa-envelope"></a>
+            </p>
+
         </div>
 
         <div class="sheet">
@@ -113,10 +127,13 @@
 
     <footer>
         <div class="foot">
-            <p>© 2024 Company Name. All rights reserved.</p>
+            <p>© 2024 SIMON. All rights reserved.</p>
         </div>
     </footer>
 
+
+
+    <script type="text/javascript" src="script.js"></script>
 </body>
 
 </html>
