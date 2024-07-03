@@ -190,12 +190,6 @@ li .button:hover {
     column-gap: 50px;
 }
 
-.dis p:hover {
-    opacity: 50%;
-    cursor: pointer;
-    color: rgb(238, 61, 89);
-}
-
 .dis :hover {
     opacity: 50%;
     cursor: pointer;
